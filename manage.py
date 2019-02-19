@@ -4,12 +4,12 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 def run(args):
-    os.environ["DJANGO_SETTINGS_MODULE"] = "epperson.settings"
+    os.environ["DJANGO_SETTINGS_MODULE"] = "epperson_project.settings"
     from django.core.management import execute_from_command_line as execute
     execute(['manage.py'] + args)
 
 if __name__ == '__main__':
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'epperson.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'epperson_project.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
