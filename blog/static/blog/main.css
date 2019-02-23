@@ -25,7 +25,7 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link.active {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .content-section {
@@ -43,6 +43,10 @@ ul {
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;
+}
+
+a.nav-item.nav-link:hover {
+  font-weight: bold
 }
 
 .article-content {
