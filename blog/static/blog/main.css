@@ -16,7 +16,7 @@ ul {
   background-color: #5f788a;
 }
 
-.site-header .navbar-nav .nav-link {
+/* .site-header .navbar-nav .nav-link {
   color: #cbd5db;
 }
 
@@ -27,7 +27,7 @@ ul {
 .site-header .navbar-nav .nav-link.active {
   font-weight: bold;
 }
-
+*/
 .content-section {
   background: #ffffff;
   padding: 10px 20px;
@@ -43,10 +43,6 @@ ul {
 a.article-title:hover {
   color: #428bca;
   text-decoration: none;
-}
-
-a.nav-item.nav-link:hover {
-  font-weight: bold
 }
 
 .article-content {
