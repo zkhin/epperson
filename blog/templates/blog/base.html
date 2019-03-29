@@ -36,6 +36,7 @@
                                 <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
                             </li>
                     {% if user.is_authenticated %}
+                            <a class="nav-link nav-link mr-4" href="{% url 'post-create' %}">New Post</a>
                             <a class="nav-link nav-link mr-4" href="{% url 'profile' %}">Profile</a>
                             <a class="nav-link nav-link" href="{% url 'logout' %}">Logout</a>
                     {% else %}
