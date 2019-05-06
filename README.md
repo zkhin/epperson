@@ -1,4 +1,2 @@
 # epperson
-Django
-Django test
-vim
+Blog to explore default Django ORM, MVT, authentication, signals, forms, class-based views.
